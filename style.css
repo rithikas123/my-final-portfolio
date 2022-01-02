@@ -1,0 +1,55 @@
+body{
+    background-color: #e39ffe; 
+}
+.heading{
+    height: 50px;
+    font-size:1cm;
+    font-weight: bold;
+    border-style: double;
+    border-radius: 5cm;
+    color: #67032f;
+}
+.aboutme{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-style: double;
+    border-color: #67032f;
+    border-radius: 1cm;
+    background-color: #a32cc4;
+    margin: 25px;
+    padding: 25px;
+}
+.myImage{
+    border-radius: 1cm;
+}
+.allArtWork{
+display:flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+flex-basis: 100%;
+border-style: double;
+border-radius: 1cm;
+margin: 25px;
+padding: 25px;
+background-color:#a32cc4 ;
+}
+.eachArt{
+    flex-basis: 35%;
+    margin: 10px;
+
+}
+.artImage{
+    border-style: solid;
+}
+p{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.description{
+    display:flex;
+    justify-content: center;
+    margin-left: 20px;
+    text-decoration:underline ;
+}
